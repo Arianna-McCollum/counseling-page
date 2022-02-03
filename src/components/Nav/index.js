@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../../assets/Lotus-icon.png'
+import Logo from '../../assets/Lotus2.png'
 import './style.css';
 
 function Nav() {
@@ -8,7 +8,7 @@ function Nav() {
   <header class="hero-header" id="hero-header">
       <div class="wrapper">
      </div>
-     <div className="d-flex mr-auto">
+     <div className="mr-auto">
      <img className="logo" src={Logo}/>
      </div>
      <nav>
