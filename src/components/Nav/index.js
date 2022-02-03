@@ -10,7 +10,6 @@ function Nav() {
      </div>
      <div className="d-flex mr-auto">
      <img className="logo" src={Logo}/>
-     <h1 className="title">Hold the Soul</h1>
      </div>
      <nav>
           <ul>

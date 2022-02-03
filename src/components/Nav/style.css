@@ -6,15 +6,15 @@
 }
 
 .logo {
-    margin-top: 15px;
+    margin-top: 10px;
     margin-left: 20px;
-    width: 22%;
-    height: 65%;
+    width: 20%;
+    height: 60%;
 }
 
 
 header {
-    height: 95px;
+    height: 60px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -36,8 +36,8 @@ header {
   
   header nav ul {
     display: flex;
-    margin-top: 25px;
-    margin-right: 60px;
+    margin-top: 10px;
+    margin-right: 5px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
@@ -47,11 +47,12 @@ header {
   header nav ul li a {
     padding:20px;
     font-weight: 900;
-    font-size: 1.75vw;
+    font-size: 1.5vw;
   }
   
   header nav ul li a:hover {
-    color: var(--tertiary-color);
+    color: var(--quarternary-color);
+    transition: all .5s ease-in-out;
     text-shadow: none;
     text-decoration: none;
   }
