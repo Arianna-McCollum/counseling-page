@@ -1,0 +1,13 @@
+.hero {
+    background-image: url('/src/assets/Top.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+    height: 910px;
+  }
+
+  

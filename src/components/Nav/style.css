@@ -1,0 +1,70 @@
+.title {
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-left: 15px;
+    font-size: 3.7vw;
+}
+
+.logo {
+    margin-top: 15px;
+    width: 22%;
+    height: 65%;
+}
+
+
+header {
+    height: 100px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background-color: rgba(224, 159, 90, 0.2);
+    background-attachment: fixed;
+    border-bottom: solid 3px rgba(224, 159, 90, 0.3);
+    
+  }
+  
+  header a {
+    text-decoration: none;
+    color: #212121;
+  }
+
+  
+  header nav ul {
+    display: flex;
+    margin-top: 40px;
+    margin-right: 50px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+  }
+  
+  header nav ul li a {
+    padding:20px;
+    font-weight: 900;
+    font-size: 1.75vw;
+  }
+  
+  header nav ul li a:hover {
+    color: var(--tertiary-color);
+    text-shadow: none;
+    text-decoration: none;
+  }
+  
+  .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: antiquewhite;
+  }
+  
+  .navbar-light .navbar-nav .nav-link {
+    color: #212121;
+  }
+  
+  .navbar-light .navbar-nav .nav-link:hover{
+    color: var(--tertiary-color);
+    text-shadow: none;
+  }
+  
