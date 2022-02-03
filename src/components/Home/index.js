@@ -4,7 +4,6 @@ function Home() {
   
   return (
     <section className="hero" id="hero">
-
     </section>
   );
 }

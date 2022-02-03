@@ -7,13 +7,14 @@
 
 .logo {
     margin-top: 15px;
+    margin-left: 20px;
     width: 22%;
     height: 65%;
 }
 
 
 header {
-    height: 100px;
+    height: 95px;
     padding: 0px;
     display: flex;
     justify-content: space-between;
@@ -35,8 +36,8 @@ header {
   
   header nav ul {
     display: flex;
-    margin-top: 40px;
-    margin-right: 50px;
+    margin-top: 25px;
+    margin-right: 60px;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
