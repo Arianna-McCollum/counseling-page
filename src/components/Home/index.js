@@ -4,8 +4,11 @@ function Home() {
   
   return (
     <section className="hero" id="hero">
+      
               <div className="hero-cta d-flex mx-auto" id="hero-cta">
-            <h2>Hold the Soul.</h2>
+            <h2>Hold the Soul.
+              <br></br><span>Spiritual counseling</span>
+              </h2>
           </div>
     </section>
   );

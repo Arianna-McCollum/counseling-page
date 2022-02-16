@@ -17,9 +17,14 @@
   }
   
   .hero-cta h2 {
-    margin-top: 25%;
+    margin-top: 10%;
+    margin-bottom: 0;
     font-size: 10vw;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.767);
     text-shadow: 10px 10px 90px rgb(0, 0, 0, 1);
+  }
+
+  span {
+    font-size: 5.7vw;
   }

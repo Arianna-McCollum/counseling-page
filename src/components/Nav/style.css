@@ -6,8 +6,14 @@
 }
 
 .logo {
-  width: 30%;
-  height: 65%;
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 35%;
+  height: 75%;
+  
+}
+
+.logo-box {
   
 }
 
