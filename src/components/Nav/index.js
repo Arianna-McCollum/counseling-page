@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from '../../assets/Lotux.png'
+import Logo from '../../assets/Lotux.png';
 import './style.css';
 
 function Nav() {
