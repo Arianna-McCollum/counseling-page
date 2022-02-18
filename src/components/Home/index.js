@@ -3,7 +3,7 @@ import './style.css'
 function Home() {
   
   return (
-    <section className="hero" id="hero">
+    <section className="hero" id="home">
       
               <div className="hero-cta d-flex mx-auto" id="hero-cta">
             <h2>Hold the Soul

@@ -1,22 +1,18 @@
-.title {
-    font-weight: bolder;
-    margin-top: 10px;
-    margin-left: 15px;
-    font-size: 3.7vw;
+.nav-title {
+  font-weight: 900;
+  font-size: 2.8vw;
+  color: rgba(255, 255, 255, 0.767);
+  text-shadow: 10px 10px 90px rgb(0, 0, 0, 1);
 }
 
 .logo {
   margin-top: 5px;
   margin-left: 5px;
-  width: 35%;
-  height: 75%;
+  margin-right: 10px;
+  width: 20%;
+  height: 72%;
   
 }
-
-.logo-box {
-  
-}
-
 
 header {
     height: 60px;

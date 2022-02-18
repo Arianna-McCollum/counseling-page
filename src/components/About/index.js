@@ -4,7 +4,11 @@ import './style.css'
 function About() {
   
   return (
-    <section id="About">
+    <section id="about">
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     <div className='row d-flex mx-auto'>
       <div className='about-box col-md-5'>
         <h1 className='about-title'>A Little About Me..</h1>
