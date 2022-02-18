@@ -11,7 +11,7 @@ function About() {
       <br></br>
     <div className='row d-flex mx-auto'>
       <div className='about-box col-md-5'>
-        <h1 className='about-title'>A Little About Me..</h1>
+        <h2 className='about-title'>A Little About Me..</h2>
         <p className='about-text'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut 
         labore et dolore magna aliqua. Ut enim ad minim veniam, 
         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea 

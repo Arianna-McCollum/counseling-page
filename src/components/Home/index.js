@@ -6,9 +6,9 @@ function Home() {
     <section className="hero" id="home">
       
               <div className="hero-cta d-flex mx-auto" id="hero-cta">
-            <h2>Hold the Soul
+            <h1>Hold the Soul
               <br></br><span>Spiritual Counseling</span>
-              </h2>
+              </h1>
           </div>
     </section>
   );
