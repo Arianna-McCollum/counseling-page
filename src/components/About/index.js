@@ -1,6 +1,8 @@
 import React from 'react';
-import Me from '../../assets/me.jpg'
-import './style.css'
+import Me from '../../assets/me.jpg';
+import Fade from 'react-reveal/Fade';
+import './style.css';
+
 function About() {
   
   return (
@@ -20,9 +22,11 @@ function About() {
         Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
         officia deserunt mollit anim id est laborum.</p>
       </div>
+    <Fade bottom cascade>
       <div className='me-box col-md-5'>
         <img className="me" src={Me}/>
       </div>
+    </Fade>
     </div>
     </section>
   );

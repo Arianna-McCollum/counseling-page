@@ -1,0 +1,64 @@
+#quote {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+.author {
+    margin-left: 10px;
+}
+
+.quote-text {
+    font-size: 2.4vw;
+    font-weight: 800;
+
+    
+}
+
+/* Quote Block Template from https://codepen.io/Rases */
+
+.component{
+    width: 70%;
+    margin:0 auto;
+    padding: 5rem;
+  }
+  
+  .component blockquote.quote {
+      position: relative; 
+      text-align: center;
+      padding: 1rem 1.2rem;
+      width: 80%;  /* create space for the quotes */
+      color: #484748;
+      margin: 1rem auto 2rem;
+  }
+
+.component blockquote.EN {
+    background:
+    linear-gradient(to right, #FFC619 4px, transparent 4px) 0 100%,
+    linear-gradient(to left, #FFC619 4px, transparent 4px) 100% 0,
+    linear-gradient(to bottom, #FFC619 4px, transparent 4px) 100% 0,
+    linear-gradient(to top, #FFC619 4px, transparent 4px) 0 100%;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+}
+
+.component blockquote.quote:before,
+.component blockquote.quote:after{
+    font-family: FontAwesome;
+    position: absolute;
+    color: #FFC619;
+    font-size: 34px;
+}
+
+.component blockquote.EN:before{
+    content: "\f10d";
+    top: -12px;
+    margin-right: -20px;
+    right: 100%;
+}
+.component blockquote.EN:after{
+    content: "\f10e";
+    margin-left: -20px;
+    left: 100%;  
+    top: auto;
+    bottom: -20px;
+}

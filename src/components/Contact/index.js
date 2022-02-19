@@ -1,7 +1,7 @@
-import './style.css';
+import Fade from 'react-reveal/Fade';
 import React, { useState } from 'react';
-
 import { validateEmail } from '../../utils/helpers';
+import './style.css';
 
 function Contact() {
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
@@ -35,6 +35,7 @@ function Contact() {
   };
 
   return (
+    <Fade bottom cascade>
     <section id="contact" className="site-section section-form text-center mx-auto">
     <div class="container">
         <h2 className="contact-title">Connect with Me</h2>
@@ -59,6 +60,7 @@ function Contact() {
       </form>
     </div>
     </section>
+    </Fade>
   );
 }
 

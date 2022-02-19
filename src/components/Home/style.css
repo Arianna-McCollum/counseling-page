@@ -26,7 +26,7 @@
     text-shadow: 10px 10px 90px rgb(0, 0, 0, 1);
   }
 
-  span {
+  .hero-span {
     font-size: 5.7vw;
     font-weight: 900;
     color: rgba(255, 255, 255, 0.767);

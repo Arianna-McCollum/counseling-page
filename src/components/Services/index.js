@@ -1,8 +1,10 @@
 import React from 'react';
-import './style.css'
+import Fade from 'react-reveal/Fade';
+import './style.css';
 function Services() {
   
   return (
+    <Fade bottom cascade>
     <section id="services" className="site-section section-services overlay text-center">
         <div className="container">
             <div className="row">
@@ -21,6 +23,7 @@ function Services() {
             </div>
         </div>
     </section>
+    </Fade>
   );
 }
 
