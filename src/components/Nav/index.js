@@ -10,7 +10,7 @@ function Nav() {
      </div>
      <div className="d-flex mr-auto">
      <img className="logo" src={Logo}/>
-     <h2 className="mr-auto nav-title">Hold the Soul</h2>
+     <h2 className="mr-auto nav-title"><em>Hold the Soul</em></h2>
      </div>
      
      <nav>

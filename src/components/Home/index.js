@@ -11,6 +11,9 @@ function Home() {
               <br></br><span className='hero-span'>Spiritual Counseling</span>
               </h1>
           </div>
+          <div id="section04" class="demo">
+                <a href="#about"><span></span></a>
+          </div>
       </Fade>
     </section>
   );
